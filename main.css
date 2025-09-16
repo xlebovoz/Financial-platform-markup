@@ -1,0 +1,84 @@
+:root {
+    --green: #1F4D36;
+    --lime: #CFE3CC;
+    --l_grey: #F2F4EA;
+    --yellow: #F1EABA;
+    --white: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+#insert_page {
+    position: relative;      /* Чтобы кнопка абсолютная была внутри */
+    width: 100%;             /* Растянуть на всю ширину */
+    margin: 0 auto;          /* Центрируем контейнер по горизонтали */
+    display: flex;
+    justify-content: center; /* Центрируем навигацию (пункты) */
+    align-items: center;
+    background-color: var(--l_grey);
+    height: 90px;
+}
+
+
+.nav_links {
+    display: inline-block;
+    margin-right: 40px; /* промежуток справа */
+}
+
+/* Убираем правый margin у последнего элемента */
+.nav_links:last-child {
+    margin-right: 0;
+}
+
+#insert_btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid var(--green);
+    border-radius: 100px;
+    width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    color: var(--green);
+    font-weight: 600;
+    user-select: none;
+    margin-right: 50px;
+}
+
+#first_sc {
+    background-color: var(--lime);
+    height: 900px;
+}
+
+#second_sc {
+    background-color: var(--green);
+    height: 1250px;
+}
+
+#third_sc{
+
+}
+
+#fourth_sc {
+
+}
+
+#fifth_sc {
+
+}
+
+#sixth_sc {
+
+}
+
+#seventh_sc {
+    
+}
