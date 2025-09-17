@@ -54,9 +54,24 @@ body {
 }
 
 #first_sc {
-    background-color: var(--lime);
+    background-color: var(--white);
     height: 900px;
 }
+
+/* 
+#left_fsc {
+
+}
+
+#tcoy {
+
+}
+
+
+#right_fsc {
+
+} */
+
 
 #second_sc {
     background-color: var(--green);
@@ -64,21 +79,26 @@ body {
 }
 
 #third_sc{
-
+    height: 2250px;
+    background-color: var(--white);
 }
 
 #fourth_sc {
-
+    height: 1100px;
+    background-color: var(--green);
 }
 
 #fifth_sc {
-
+    height: 800px;
+    background-color: var(--white);
 }
 
 #sixth_sc {
-
+    height: 1050px;
+    background-color: var(--lime);
 }
 
 #seventh_sc {
-    
+    height: 950px;
+    background-color: var(--green);
 }
